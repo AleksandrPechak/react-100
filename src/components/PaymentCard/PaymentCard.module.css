@@ -1,0 +1,17 @@
+.container {
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.text {
+  margin: 0;
+}
+
+.isPaid {
+  color: rgb(75, 241, 75);
+}
+
+.isPending {
+  color: rgb(235, 197, 72);
+}

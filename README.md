@@ -1,18 +1,22 @@
-# React + Vite
+# Заняття 2 - Стилізація
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Рендер додатка в DOM у файлі `main.jsx`
+  - Пакети `react` та `react-dom`
+  - Методи `createRoot` та `render`
+- Властивість `props.children`
+- Коротко про вбудовані стилі
+  - Проблема маштабування, підтримки ітд
+- Коротко про ванільний CSS
+  - Проблема глобальної області видимості
+- Структура папок та файлів
+  - Папка компонента
+  - Файл компонента
+  - Файл стилів
+  - Іменування
+- CSS-модулі
+  - Використання
+  - Композиція класів
+  - Бібліотека [clsx](https://www.npmjs.com/package/clsx)
+- Повторне використання стилів
+- Нормалізація стилів з [modern-normalize](https://www.npmjs.com/package/modern-normalize)
+- Бібліотека [React Icons](https://react-icons.github.io/react-icons/)
